@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Present specially made for Owen</title>
+</head>
+
+<body>
+    <p>
+        <button id="play">1. 請播放音樂</button>
+            <script>
+                let play = document.getElementById("play");
+                function playMusic() {
+                let audio = new Audio("HappyBirthdaySong.mp3");
+                audio.play()
+        }
+        play.addEventListener("click", playMusic);
+            </script>
+    </p>
+    <h1 id="MyHeading">To: my bby</h1>
+
+    <button id="MyButton">2. Show message!</button>
+
+</body>
+</html>
+
+<script>
+
+    const MyButton = document.getElementById('MyButton');
+  
+    MyButton.addEventListener('click', function() {
+       
+        document.getElementById('MyHeading').innerText = "Happy 25th birthday to my sexy man hehe I'm so happy to celebrate this special day together with you in yee haw land haha 🤠 It's the first time we've actually been together for your birthday! I hope that you like your birthday gifts! The coding part of this was especially difficult difficult 🍋 difficult, but I wanted to really surprise you!🎉 I've seen you grow so much since I first met you and I can't wait to see what's in store for you in 2024! Your ambitious nature keeps me on my toes and makes me want to be a better person so that we can grow together <3 I enjoy all the moments I get to spend with you and always wish I could be close to you for a little while longer 🤗 Calling with you each night is always a highlight of my day. I love hearing your silly dad jokes and seeing you light up when talking about something you enjoy. You're gentle and so sweet to me. Thank you for being there with me these past 2 years. I can't imagine anybody else I'd want to spend it with. I love you very much. Happy 25th Birthday, my love! ❤️"
+
+    })
+</script>
+
+<img id="goldenhour.png" src="" />
+<button type="button" onclick="show()" id="btnID">
+    3. Show pic!
+</button>
+<script>
+    function show() {
+        /* Get image and change value 
+        of src attribute */
+        let image = document.getElementById("goldenhour.png");
+        image.src ="goldenhour.png"
+        document.getElementById("btnID")
+            .style.display = "none";
+    }
+    
+</script>
+
+<a href="https://opensea.io/assets/ethereum/0x30d54027c6553f23ea00c77dd7006ecd6e70bf75/1/" target="_blank">
+    <button style="background-color: #bfe6ff; color: #484055;">4. Click me!</button>
+</a>
+    </p>
+</body>
+</html>
